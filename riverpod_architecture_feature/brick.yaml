@@ -17,14 +17,3 @@ vars:
     description: Name of a new model.
     default: User
     prompt: What model are you to make?
-  model_actions:
-    type: array
-    description: Actions of the new model.
-    defaults: 
-      - create
-      - read
-      - update
-      - delete
-    values:
-      - create
-    prompt: What actions are you to make for the model?

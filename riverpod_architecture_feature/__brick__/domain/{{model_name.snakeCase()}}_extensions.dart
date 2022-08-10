@@ -1,7 +1,7 @@
+import '{{model_name.snakeCase()}}.dart';
+
 extension Mutable{{model_name.pascalCase()}} on {{model_name.pascalCase()}}{
-  {{#model_actions}}
-  {{model_name.pascalCase()}} {{name.camelCase()}}{
+  {{model_name.pascalCase()}} /*meathodName*/ {
     // TODO: implement {{name.camelCase()}} method
   }
-  {{/model_actions}}
 }
