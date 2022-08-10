@@ -7,6 +7,6 @@ class {{feature_name.pascalCase()}}Service {
   // TODO: Add your service methods that interacts with repositories in data layer here
 }
 
-final {{feature_name.snakeCase()}}ServiceProvider=Provider<{{feature_name.pascalCase()}}Service>((ref),{
-  ,return {{feature_name.pascalCase}}Service(ref);
+final {{feature_name.snakeCase()}}ServiceProvider=Provider<{{feature_name.pascalCase()}}Service>((ref) {
+  return {{feature_name.pascalCase}}Service(ref);
 });
