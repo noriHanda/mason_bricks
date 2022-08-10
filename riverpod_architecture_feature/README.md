@@ -2,15 +2,15 @@
 
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
-A mason brick to generate boilerplate code for architecture introduced by [CODE WITH ANDREA][0].
+A mason brick to generate boilerplate code for architecture introduced by [CODE WITH ANDREA][1].
 
 Model is created with [freezed][2].
 
 ## Prerequisites
 
-[x] Installed [Riverpod][3]
-[x] Installed [freezed][2]
-[x] Using feature-first architecture
+- [x] Installed [Riverpod][3]
+- [x] Installed [freezed][2]
+- [x] Using feature-first architecture
 
 ## Getting Started 🚀
 
@@ -29,10 +29,10 @@ mason make riverpod_feature_brick
 | `feature_name`   | Name of a new feature                 | Authentication | `string`  |
 | `model_name`     | Name of a new model                   | User           | `string`  |
 
-## Outputs 📦
+## Outputs 📦 (Example with default values)
 
 ```txt
---feature_name authentication
+-- authentication
 ├── application
 |   └── authentication_service.dart
 ├── data
