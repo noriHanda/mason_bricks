@@ -1,5 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../data/{{feature_name.snakeCase()}}_repository.dart';
+
 class {{feature_name.pascalCase()}}Notifier extends StateNotifier<AsyncValue<void>> {
   {{feature_name.pascalCase()}}Notifier({required this.{{feature_name.camelCase()}}Repository}): super(const AsyncData(null));
   final {{feature_name.pascalCase()}}Repository {{feature_name.camelCase()}}Repository;
