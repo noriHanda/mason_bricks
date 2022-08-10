@@ -20,5 +20,9 @@ vars:
   model_actions:
     type: array
     description: Actions of the new model.
-    default: [create,read,update,delete]
+    defaults: 
+      - create
+      - read
+      - update
+      - delete
     prompt: What actions are you to make for the model?
