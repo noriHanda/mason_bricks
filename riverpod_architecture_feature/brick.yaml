@@ -1,0 +1,24 @@
+name: riverpod_architecture_feature
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  feature_name:
+    type: string
+    description: Name of a new feature.
+    default: Authentication
+    prompt: What feature are you to make?
+  model_name:
+    type: string
+    description: Name of a new model.
+    default: User
+    prompt: What model are you to make?
+  model_actions:
+    type: array
+    description: Actions of the new model.
+    default: create, read, update, delete
+    prompt: What actions are you to make for the model?
