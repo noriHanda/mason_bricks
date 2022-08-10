@@ -1,7 +1,7 @@
 name: riverpod_architecture_feature
 description: A new brick created with the Mason CLI.
 
-version: 0.1.0+2
+version: 0.1.0+3
 repository: https://github.com/noriHanda/mason_bricks/edit/main/riverpod_architecture_feature
 
 environment:
