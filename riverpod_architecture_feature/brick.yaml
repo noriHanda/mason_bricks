@@ -25,4 +25,6 @@ vars:
       - read
       - update
       - delete
+    values:
+      - create
     prompt: What actions are you to make for the model?
